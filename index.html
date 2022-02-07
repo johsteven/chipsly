@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipsly</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/tailwind.css">
+    <link rel="stylesheet" href="dist/css/custom.css">
+</head>
+
+<body class="antialiased font-body bg-[#F8F7F5] text-main-black-500 tracking-tight">
+    <header class="pb-12 lg:pb-24" id="beranda">
+        <div class="container px-6">
+            <nav class="flex items-center justify-between py-6 tracking-normal lg:py-8">
+                <a href="" class="font-extrabold text-brand">
+                        CHIPSLY
+                    </a>
+                <ul class="items-center hidden space-x-12 md:flex">
+                    <li><a href="#beranda" class="hover:text-opacity-50 text-main-black-500">Beranda</a></li>
+                    <li><a href="#tentang" class="hover:text-opacity-50 text-main-black-500">Tentang</a></li>
+                    <li><a href="#produk" class="hover:text-opacity-50 text-main-black-500">Produk</a></li>
+                    <li><a href="#testimoni" class="hover:text-opacity-50 text-main-black-500">Testimoni</a></li>
+                    <li><a href="#kontak" class="hover:text-opacity-50 text-main-black-500">Kontak</a></li>
+                </ul>
+                <div class="block cursor-pointer md:hidden" id="bar-btn">
+                    <img src="assets/icons/bar.svg" alt="">
+                </div>
+                <div class="fixed top-0 z-10 w-full h-full p-10 transition-all bg-white -right-full md:hidden nav-menu-collapse">
+                    <div class="absolute cursor-pointer top-9 right-9">
+                        <img src="assets/icons/x-bar.svg" class="w-8" alt="">
+                    </div>
+                    <ul class="flex flex-col space-y-10">
+                        <li><a href="#beranda" class="hover:text-opacity-50 text-main-black-500">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-opacity-50 text-main-black-500">Tentang</a></li>
+                        <li><a href="#produk" class="hover:text-opacity-50 text-main-black-500">Produk</a></li>
+                        <li><a href="#testimoni" class="hover:text-opacity-50 text-main-black-500">Testimoni</a></li>
+                        <li><a href="#kontak" class="hover:text-opacity-50 text-main-black-500">Kontak</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="flex flex-col items-center justify-between mt-16 lg:mt-24 lg:flex-row lg:justify-between">
+                <div class="order-2 mt-20 lg:mt-0">
+                    <p class="font-bold text-primary-500">Ada tiga varian rasa ( original, balado, jagung bakar )</p>
+                    <h1 class="mt-2 mb-4 font-extrabold text-h1-responsive lg:text-h1 font-display">Cobain kripik singkong dengan <br> rasa yang berkualitas</h1>
+                    <p class="text-lg leading-relaxed text-main-gray">Keripik Chipsly sangat cocok dinikmati bersama kopi dan <br> gorengan. Dengan cita rasa singkong yang ditanam sendiri serta bumbu <br> yang gurih dan lezat.</p>
+                    <div class="flex flex-col items-center text-center sm:flex-row mt-7">
+                        <a href="#produk" class="inline-block w-full px-10 py-4 text-lg font-medium text-white rounded-lg sm:w-auto bg-primary-500 hover:bg-primary-400 active:bg-primary-600">Pesan Sekarang</a>
+                        <a href="#tentang" class="inline-block w-full px-10 py-4 text-lg font-medium sm:w-auto">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="flex order-1 w-full lg:w-auto lg:order-last">
+                    <div class="relative w-[400px]">
+                        <div class="absolute p-3 bg-white rounded-full -translate-x-2/4 lg:translate-x-0 -top-7 left-2/4 shadow-decoration lg:top-32 lg:-left-7">
+                            <img src="assets/icons/heart.svg" alt="">
+                        </div>
+                        <img src="assets/images/header.png" class="object-cover rounded-md" alt="">
+                        <div class="absolute inline-block w-9/12 py-3 text-center bg-white rounded-full lg:w-auto lg:px-5 translate-x-2/4 lg:translate-x-0 -bottom-5 right-2/4 shadow-decoration lg:bottom-7 lg:-right-7">Lezat dan Bergizi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-12 lg:py-24" id="tentang">
+        <div class="container px-6">
+            <div class="flex flex-col lg:justify-center lg:flex-row">
+                <div class="flex mb-6 lg:mb-0">
+                    <div class="relative w-[400px]">
+                        <img src="assets/icons/about-decoration.svg" class="absolute -top-10 right-2/4 translate-x-2/4 -z-10" alt="">
+                        <img src="assets/images/about.png" class="object-cover w-full rounded-md" alt="">
+                    </div>
+                </div>
+                <div class="lg:pl-10">
+                    <h2 class="mb-3 font-extrabold text-h2-responsive lg:text-h2 font-display">Kenalan dengan Chipsly yuk</h2>
+                    <p class="text-lg leading-relaxed text-main-gray">
+                        Chipsly adalah produk keripik singkong yang umumnya <br> terbuat dari singkong pilihan yang ditambah dengan bumbu penyedap alami tanpa <br> bahan pengawet. Ada tiga varian rasa yang dapat kamu coba <br> dengan harga yang sama.
+                        <br> Anda dapat langsung memesan keripik Chipsly melalui Whatsapp <br> yang tertera di halaman pemesanan.
+                    </p>
+                    <a href="#produk" class="bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white font-medium py-3.5 px-8 mt-6 w-full sm:w-auto text-center inline-block rounded-lg">Lihat Produk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24">
+        <div class="container px-6">
+            <div class="bg-primary-500 flex flex-col sm:flex-row items-center justify-between p-6 lg:p-16 rounded-[10px] lg:rounded-[20px]">
+                <h2 class="mb-10 text-xl font-extrabold text-center text-white lg:text-h2 font-display sm:mb-0">Tertarik untuk membeli Chipsly?</h2>
+                <a href="https://wa.me/6287840598951?text=Apakah%20barang%20masih%20tersedia?" target="_blank" class="bg-white font-medium py-3.5 px-8 w-full sm:w-auto text-center inline-block rounded-lg">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24" id="produk">
+        <div class="container px-6">
+            <div class="lg:text-center">
+                <h2 class="mb-3 font-extrabold text-h2-responsive lg:text-h2 font-display">Produk yang kami buat</h2>
+                <p class="text-lg leading-relaxed text-main-gray">Berikut adalah tiga produk yang kami tawarkan kepada anda</p>
+            </div>
+            <div class="flex flex-col justify-center mt-16 space-y-10 lg:space-y-0 lg:space-x-10 lg:flex-row">
+                <div class="bg-white p-5 rounded-[10px] shadow-product w-full md:w-[350px] border-t-[5px] border-t-black">
+                    <div class="bg-main-black-500 flex items-center bg-opacity-20 h-[250px] w-full rounded-xl">
+                        <img src="assets/images/product-1.png" class="h-full mx-auto" alt="">
+                    </div>
+                    <div class="my-8">
+                        <p>Rasa Original</p>
+                        <p class="mt-2 mb-2.5"><span class="text-xl font-semibold font-display text-primary-500">Rp 5.000</span> / bks</p>
+                        <p class="text-sm"><s class="text-main-gray">Rp 7.000</s> -28%</p>
+                    </div>
+                    <a href="https://wa.me/6287840598951?text=Halo,%20saya%20ingin%20membeli%20keripik%20Chipsly%20Rasa%20Original" target="_blank" class="block px-8 py-3 font-medium text-center bg-gray-200 rounded-lg hover:bg-gray-300">Pesan</a>
+                </div>
+                <div class="bg-white p-5 rounded-[10px] w-full md:w-[350px] border-2 border-primary-500">
+                    <div class="bg-primary-500 flex items-center bg-opacity-20 h-[250px] w-full rounded-xl">
+                        <img src="assets/images/product-2.png" class="h-full mx-auto" alt="">
+                    </div>
+                    <div class="my-8">
+                        <p>Rasa Balado</p>
+                        <p class="mt-2 mb-2.5"><span class="text-xl font-semibold font-display text-primary-500">Rp 5.000</span> / bks</p>
+                        <p class="text-sm"><s class="text-main-gray">Rp 7.000</s> -28%</p>
+                    </div>
+                    <a href="https://wa.me/6287840598951?text=Halo,%20saya%20ingin%20membeli%20keripik%20Chipsly%20Rasa%20Balado" target="_blank" class="block px-8 py-3 font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-400 active:bg-primary-600">Pesan</a>
+                </div>
+                <div class="bg-white p-5 rounded-[10px] shadow-product w-full md:w-[350px] border-t-[5px] border-t-secondary">
+                    <div class="bg-secondary flex items-center bg-opacity-20 h-[250px] w-full rounded-xl">
+                        <img src="assets/images/product-3.png" class="h-full mx-auto" alt="">
+                    </div>
+                    <div class="my-8">
+                        <p>Rasa Jagung Bakar</p>
+                        <p class="mt-2 mb-2.5"><span class="text-xl font-semibold font-display text-primary-500">Rp 5.000</span> / bks</p>
+                        <p class="text-sm"><s class="text-main-gray">Rp 7.000</s> -28%</p>
+                    </div>
+                    <a href="https://wa.me/6287840598951?text=Halo,%20saya%20ingin%20membeli%20keripik%20Chipsly%20Rasa%20Jagung%20Bakar" target="_blank" class="block px-8 py-3 font-medium text-center bg-gray-200 rounded-lg hover:bg-gray-300">Pesan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24">
+        <div class="container px-6">
+            <div class="flex-col flex lg:flex-row lg:justify-center lg:bg-primary-500 lg:bg-opacity-5 rounded-[10px] lg:rounded-[20px] lg:p-14">
+                <div class="flex">
+                    <div class="relative mb-6 lg:mb-0 w-[400px]">
+                        <div class="absolute p-4 rounded-full bg-primary-500 -translate-x-2/4 lg:translate-x-0 -top-8 left-2/4 lg:top-16 lg:-left-8">
+                            <img src="assets/icons/map.svg" alt="">
+                        </div>
+                        <img src="assets/images/map.png" class="object-cover w-full rounded-md shadow-map" alt="">
+                    </div>
+                </div>
+                <div class="lg:pl-10">
+                    <h2 class="mb-3 font-extrabold text-h2-responsive lg:text-h2 font-display">Kunjung tempat produksi <br> kami</h2>
+                    <span class="text-lg leading-relaxed text-main-gray">
+                        Jl. Serimpi 2a No. 2, Medan Tuntungan, Medan, Sumatera Utara
+                        <p> Telp: <a target="_blank" href="https://wa.me/62882016165088" class="underline">+62 882-0161-65088</a> </p>
+                        <p> Owner: Nazwan Hafiz & Zulfikar</p>
+                    </span>
+                    <a href="#produk" class="bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white font-medium py-3.5 px-8 mt-6 w-full sm:w-auto text-center inline-block rounded-lg">Tertarik?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24" id="testimoni">
+        <div class="container px-6">
+            <div class="lg:text-center">
+                <h2 class="mb-3 font-extrabold text-h2-responsive lg:text-h2 font-display">Mari lihat tanggapan mereka</h2>
+                <p class="text-lg leading-relaxed text-main-gray">Produk yang bagus ditentukan oleh <br> penilaian pelanggan</p>
+            </div>
+            <div class="flex flex-col justify-center mt-16 space-y-8 lg:space-y-0 lg:space-x-8 lg:flex-row">
+                <div class="lg:w-[400px]">
+                    <div class="rounded-[10px] h-full bg-main-black-500 p-6">
+                        <img src="assets/images/testimonial-1.png" class="rounded-full h-[70px] mb-3" alt="">
+                        <p class="text-xl font-semibold text-white">Steven Johannes</p>
+                        <p class="mt-1 mb-3 text-sm text-white text-opacity-60">Pelajar SMA</p>
+                        <p class="leading-7 text-white">"Buset dah, ni keripik enak banget coy. <br> Kalian harus cobain sih. Selain itu harganya <br> murah banget"</p>
+                    </div>
+                </div>
+                <div class="lg:w-[400px]">
+                    <div class="rounded-[10px] h-full bg-white p-6">
+                        <img src="assets/images/testimonial-2.png" class="rounded-full h-[70px] mb-3" alt="">
+                        <p class="text-xl font-semibold">Sandhika Galih</p>
+                        <p class="mt-1 mb-3 text-sm text-main-gray text-opacity-60">Dosen UNPAS</p>
+                        <p class="leading-7 text-main-gray">"Keripik ini sangat cocok dimakan pada <br> saat waktu luang setelah mengajar"</p>
+                    </div>
+                </div>
+                <div class="lg:w-[400px]">
+                    <div class="rounded-[10px] h-full bg-white p-6">
+                        <img src="assets/images/testimonial-3.png" class="rounded-full h-[70px] mb-3" alt="">
+                        <p class="text-xl font-semibold">Syauqi Z</p>
+                        <p class="mt-1 mb-3 text-sm text-main-gray text-opacity-60">Freelancer</p>
+                        <p class="leading-7 text-main-gray">"WFH ditemani keripik ini sangat <br> wort it ya ges ya"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24" id="kontak">
+        <div class="container px-6">
+            <div class="flex flex-col justify-between lg:flex-row">
+                <div class="mb-10 lg:w-5/12 lg:mb-0">
+                    <h2 class="mb-3 font-extrabold text-h2-responsive lg:text-h2 font-display">Kritik dan Saran</h2>
+                    <p class="text-lg leading-relaxed text-main-gray">Beri kami masukan mengenai produk kami <br> agar kedepannya dapat <br> lebih baik lagi</p>
+                    <img src="assets/icons/contact-decoration.svg" class="hidden mt-40 lg:block" alt="">
+                </div>
+                <div class="lg:pl-6 lg:w-7/12">
+                    <div class="bg-white border-2 border-main-black-500 py-8 px-5 lg:py-14 lg:px-10 rounded-[10px] relative">
+                        <div class="absolute hidden p-6 rounded-full bg-main-black-500 lg:block -top-10 left-40">
+                            <img src="assets/icons/contact.svg" class="" alt="">
+                        </div>
+                        <form action="#kontak" id="kontak-form">
+                            <div class="flex flex-col mb-8 space-y-6 lg:space-y-0 lg:space-x-6 lg:flex-row">
+                                <div class="lg:w-6/12">
+                                    <label for="nama" class="block text-sm mb-2.5">Nama</label>
+                                    <input type="text" autocomplete="off" required class="bg-[#f0f0f0] rounded-[5px] py-3 px-4 w-full text-main-black-500" placeholder="Tulis nama anda..." id="nama">
+                                </div>
+                                <div class="lg:w-6/12">
+                                    <label for="telp" class="block text-sm mb-2.5">No. Telp</label>
+                                    <input type="text" autocomplete="off" required class="bg-[#f0f0f0] rounded-[5px] py-3 px-4 w-full text-main-black-500" placeholder="Tulis no telepon anda..." id="telp">
+                                </div>
+                            </div>
+                            <div class="mb-8">
+                                <label for="pesan" class="block text-sm mb-2.5">Pesan</label>
+                                <textarea autocomplete="off" required class="bg-[#f0f0f0] resize-none h-[200px] rounded-[5px] py-3 px-4 w-full text-main-black-500" placeholder="Tulis pesan anda..." id="pesan"></textarea>
+                            </div>
+                            <div class="flex items-center">
+                                <button type="reset" class="outline-0 ml-auto font-medium py-3.5 px-8 inline-block text-main-gray">Batal</button>
+                                <button type="submit" class="outline-0 bg-main-black-500 hover:bg-main-black-600 text-white font-medium py-3.5 px-8 inline-block rounded-lg">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-12 pb-8 lg:pt-24 lg:pb-12">
+        <div class="container px-6">
+            <hr class="h-[2px] bg-main-gray">
+            <p class="mt-6 text-center text-main-gray">Copyright &copy; Chipsly 2022, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>
